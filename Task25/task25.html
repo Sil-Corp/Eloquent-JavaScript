@@ -1,0 +1,19 @@
+<!-- Task25 -->
+<!-- The input field ignores the input of letters Q W X -->
+<!-- And more comment lines for the glory of the SonarQube! -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task25</title>
+    <script type="text/javascript" src="task25.js"></script>
+</head>
+<body>
+<label for="input"></label>
+<input type="text" id="input">
+<script>
+    var field = document.querySelector("input");
+    field.addEventListener("keydown", ignore);
+</script>
+</body>
+</html>
